@@ -4,6 +4,7 @@ target_sources(
     rational
     PRIVATE
         rational.cpp
+        gcd.cpp
     PUBLIC
         ${CMAKE_CURRENT_LIST_DIR}/../headers/rational.h
         ${CMAKE_CURRENT_LIST_DIR}/../headers/gcd.h
