@@ -2,9 +2,9 @@
 #include <sstream>
 #include <stdexcept>
 
-#include "rational.h"
-#include "dividebyzeroerror.h"
-#include "gcd.h"
+#include "../headers/rational.h"
+#include "../headers/dividebyzeroerror.h"
+#include "../headers/gcd.h"
 
 namespace ExactArithmetic
 {

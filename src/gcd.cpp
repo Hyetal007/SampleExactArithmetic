@@ -1,7 +1,7 @@
 #include <cstdlib> // for abs(long long int)
 #include <algorithm> // for min()
 
-#include "gcd.h"
+#include "../headers/gcd.h"
 
 namespace ExactArithmetic
 {

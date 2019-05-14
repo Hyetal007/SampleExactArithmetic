@@ -1,1 +1,14 @@
-language: cpp
+sudo: false
+
+language:
+  - cpp
+
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
+  - cmake --build .
+  - ctest
+
+notifications:
+  email: false

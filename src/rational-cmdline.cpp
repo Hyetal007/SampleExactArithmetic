@@ -2,7 +2,7 @@
 #include <sstream>
 #include <string>
 
-#include "rational.h"
+#include "../headers/rational.h"
 
 /* Basic command line interface for experimenting with rational arithmetic.
  * Three command-line arguments are expected (in addition to the implicit file path):

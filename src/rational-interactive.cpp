@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "rational.h"
+#include "../headers/rational.h"
 
 using namespace ExactArithmetic;
 
