@@ -1,6 +1,8 @@
 #include "gtest/gtest.h"
 #include "../headers/rational.h"
 
+using namespace ExactArithmetic;
+
 TEST(rational, add)
 {
     Rational res;
