@@ -1,5 +1,6 @@
 #include "gtest/gtest.h"
 #include "../headers/rational.h"
+#include "../headers/gcd.h"
 
 using namespace ExactArithmetic;
 

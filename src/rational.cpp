@@ -182,7 +182,7 @@ void Rational::normalise()
     }
     else
     {
-        long long int factor = 1;//gcd(num,denom);
+        long long int factor = gcd(num,denom);
         num   /= factor;
         denom /= factor;
     }

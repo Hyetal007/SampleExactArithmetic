@@ -12,7 +12,14 @@ target_link_libraries(
 
 add_test(
   NAME
-    unit
+    add_test
+  COMMAND
+    ${CMAKE_BINARY_DIR}/${CMAKE_INSTALL_BINDIR}/unit_tests
+  )
+
+add_test(
+  NAME
+    subtract_test
   COMMAND
     ${CMAKE_BINARY_DIR}/${CMAKE_INSTALL_BINDIR}/unit_tests
   )
