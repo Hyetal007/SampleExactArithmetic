@@ -5,7 +5,7 @@ target_sources(
     PRIVATE
         rational.cpp
     PUBLIC
-        ${CMAKE_CURRENT_LIST_DIR}../headers/rational.h
+        ${CMAKE_CURRENT_LIST_DIR}/../headers/rational.h
     )
 
 target_include_directories(
