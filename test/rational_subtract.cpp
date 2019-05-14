@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "rational.h"
+#include "../headers/rational.h"
 
 TEST(rational, subtract)
 {
