@@ -16,7 +16,7 @@ script:
   - cd build
   - cmake ..
   - cmake --build .
-  - ctest
+  - ./bin/unit_tests
 
 after_success:
   - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*"
