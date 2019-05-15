@@ -21,7 +21,7 @@ using namespace ExactArithmetic;
 using std::cout;
 using std::endl;
 
-int main(int argc, const char * argv[])
+int main2(int argc, const char * argv[])
 {
     // Remember, argv[0] is the filename
     if (argc != 4)
