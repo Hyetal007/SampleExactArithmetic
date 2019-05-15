@@ -190,7 +190,7 @@ namespace ExactArithmetic
 		return value;
 	}
 
-	std::ostream & ExactArithmetic::operator<<(std::ostream & output, const Integer & r)
+	std::ostream & operator<<(std::ostream & output, const Integer & r)
 	{
 		int place = 0;
 		int value = 0;
@@ -203,7 +203,7 @@ namespace ExactArithmetic
 		return output;
 	}
 
-	std::istream & ExactArithmetic::operator>>(std::istream & input, Integer & r)
+	std::istream & operator>>(std::istream & input, Integer & r)
 	{
 		int value;
 		if (input.peek() == '+' || input.peek() == '-')
