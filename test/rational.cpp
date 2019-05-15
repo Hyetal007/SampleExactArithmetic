@@ -18,3 +18,17 @@ TEST(rational, subtract)
     ASSERT_EQ(res, Rational(2,3));
 }
 
+TEST(rational, multiply)
+{
+    Rational res;
+    res = Rational(3,5) - Rational(1,2);
+    ASSERT_EQ(res, Rational(2,3));
+}
+
+TEST(rational, divide)
+{
+    Rational res;
+    res = Rational(3,5) - Rational(1,2);
+    ASSERT_EQ(res, Rational(2,3));
+}
+

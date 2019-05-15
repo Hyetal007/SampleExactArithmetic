@@ -1,6 +1,6 @@
 add_executable(
     unit_tests
-    rational_add.cpp
+    rational.cpp
     )
 
 target_link_libraries(
