@@ -6,16 +6,24 @@ using namespace ExactArithmetic;
 
 TEST(rational, add)
 {
-    Rational res;
-    res = Rational(2,4) + Rational(1,4);
-    ASSERT_EQ(res, Rational(3,8));
+    Rational num = Rational(2,10);
+    num += Rational(2,10);
+    num += Rational(1,10);
+    ASSERT_EQ(num, Rational(1,2));
+
+    ASSERT_EQ(Rational(2,10) + Rational(3,10), Rational(1,2));
+    ASSERT_EQ(Rational(5,10) + Rational(5,10), Rational(1,1));
+    ASSERT_EQ(Rational() + Rational(7,10), Rational(7,10));
 }
 
 TEST(rational, subtract)
 {
-    Rational res;
-    res = Rational(3,5) - Rational(1,2);
-    ASSERT_EQ(res, Rational(2,3));
+    Rational num = Rational(2,10);
+    num += Rational(2,10);
+    num += Rational(1,10);
+
+    ASSERT_EQ(Rational(3,10) - Rational(2,10), Rational(1,10));
+    ASSERT_EQ(num, Rational(5,10));
 }
 
 TEST(rational, multiply)
@@ -32,3 +40,23 @@ TEST(rational, divide)
     ASSERT_EQ(res, Rational(2,3));
 }
 
+TEST(rational, more_than)
+{
+    Rational res;
+    res = Rational(3,5) - Rational(1,2);
+    ASSERT_EQ(res, Rational(2,3));
+}
+
+TEST(rational, less_than)
+{
+    Rational res;
+    res = Rational(3,5) - Rational(1,2);
+    ASSERT_EQ(res, Rational(2,3));
+}
+
+TEST(rational, equal)
+{
+    Rational res;
+    res = Rational(3,5) - Rational(1,2);
+    ASSERT_EQ(res, Rational(2,3));
+}
