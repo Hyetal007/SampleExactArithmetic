@@ -92,11 +92,8 @@ TEST(integer, increase)
     Integer x = 2;
     Integer y = 2;
 
-    x++;
-    y--;
-
     // increment
-    EXPECT_TRUE(x == Integer(3));          
+    EXPECT_TRUE(x++ == 3);          
     // decrement             
-    EXPECT_TRUE(y == Integer(1));                        
+    EXPECT_TRUE(y-- == 1);                        
 }
