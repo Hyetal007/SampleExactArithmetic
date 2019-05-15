@@ -7,8 +7,7 @@ add_executable(
 target_link_libraries(
     unit_tests
     gtest_main
-    rational
-    integer
+    rational  
     )
 
 add_test(
