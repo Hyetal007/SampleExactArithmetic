@@ -4,7 +4,10 @@ sudo: false
 language:
   - cpp
 
-  addons:
+compiler:
+  - gcc
+
+addons:
   apt:
     sources:
       - ubuntu-toolchain-r-test
@@ -18,6 +21,7 @@ before_install:
 script:
   - export CC=gcc-7
   - export CXX=g++-7
+  - gcc -v && g++ -v && cmake --version
   - mkdir build
   - cd build
   - cmake ..
