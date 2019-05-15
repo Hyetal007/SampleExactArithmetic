@@ -4,9 +4,9 @@
 
 using namespace ExactArithmetic;
 
-TEST(rational, testSubtractFunction)
+TEST(rational, subtract)
 {
     Rational res;
-    res = Rational(3,2) + Rational(5,3);
-    ASSERT_EQ(res, Rational(8,5));
+    res = Rational(2,4) - Rational(1,4);
+    ASSERT_EQ(res, Rational(1,4));
 }

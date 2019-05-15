@@ -4,7 +4,7 @@
 
 using namespace ExactArithmetic;
 
-TEST(rational, testMultiplyFunction)
+TEST(rational, multiply)
 {
     Rational res;
     res = Rational(3,2) + Rational(5,3);
