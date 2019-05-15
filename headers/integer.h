@@ -62,6 +62,7 @@ namespace ExactArithmetic
 
     private:
       using Digit = short int;
+      int getValue(std::list<Digit> digits) const;
 
       // The integer is represented as a list of digits.
       std::list<Digit> digits {};
