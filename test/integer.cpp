@@ -3,7 +3,7 @@
 
 using namespace ExactArithmetic;
 
-TEST(integer, test)
+TEST(rational, test)
 {
     EXPECT_EQ(1,1);         
 }
