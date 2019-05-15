@@ -61,8 +61,7 @@ namespace ExactArithmetic
       friend std::istream & operator>>(std::istream &, Integer &);
 
     private:
-      //using Digit = short int;
-      typedef short int Digit;
+      using Digit = short int;
 
       // The integer is represented as a list of digits.
       std::list<Digit> digits {};
