@@ -52,7 +52,7 @@ bool Rational::operator==(const Rational & r) const
 
 bool Rational::operator!=(const Rational & r) const
 {
-    return (num != r.num) && (denom != r.denom);
+    return num * r.denom != denom * r.num;
 }
 
 /* Comparison Operators
