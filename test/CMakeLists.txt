@@ -1,12 +1,14 @@
 add_executable(
     unit_tests
     rational.cpp
+    integer.cpp
     )
 
 target_link_libraries(
     unit_tests
     gtest_main
     rational
+    integer
     )
 
 add_test(
