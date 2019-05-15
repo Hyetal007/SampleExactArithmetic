@@ -49,8 +49,8 @@ TEST(rational, divide)
     num /= Rational(1,2);
     num /= Rational(1,2);
     
-    EXPECT_EQ(num, Rational(4,1));                                // division assignment operator
-    EXPECT_EQ(Rational(5,10) / Rational(9,10), Rational(5,9));     // division with normalisation
+    EXPECT_EQ(num, Rational(4,1));                                  // division assignment operator
+    EXPECT_EQ(Rational(5,10) / Rational(9,10), Rational(5,9));      // division with normalisation
     EXPECT_EQ(Rational(4,10) / Rational(1,8), Rational(16,5));      // division different denominator
     EXPECT_EQ(Rational(1,10) / Rational(-2,10), Rational(-1,2));    // division with negative number
 }
