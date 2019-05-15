@@ -89,14 +89,14 @@ TEST(integer, equal)
 
 TEST(integer, increase)
 {
-    Integer in = Integer(2);
-    Integer de = Integer(2);
+    Integer x = 2;
+    Integer y = 2;
 
-    in++;
-    de--;
+    x++;
+    y--;
 
     // increment
-    EXPECT_TRUE(in == Integer(3));          
+    EXPECT_TRUE(x == Integer(3));          
     // decrement             
-    EXPECT_TRUE(de != Integer(1));                        
+    EXPECT_TRUE(y == Integer(1));                        
 }
